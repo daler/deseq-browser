@@ -8,7 +8,13 @@ into a single HTML file  with controls for [surprisingly responsive] max/min
 filtering and searching.  Given that there are quite a few CSS and JavaScript
 files needed, these are copied to the output dir as well.
 
-Usage::
+To try it out, simply run the script in the directory::
+
+    python deseq2table.py
+
+and then view ``example/deseq.html`` in a browser.
+
+General usage::
 
     $ deseq2table.py --deseq results.txt --output experiment_1
 
