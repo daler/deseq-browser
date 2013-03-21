@@ -1,5 +1,14 @@
 DESeq browser
 -------------
+
+Note
+~~~~
+See `entabled <https://github.com/daler/entabled>`_ for a more generic way of
+doing this...specifically, see the ``deseq2table.py`` script included with
+``entabled`` for the same functionality described below.
+
+Usage
+~~~~~
 Converts a table of DESeq results that was created by::
 
     write.table(res, file='results.txt', sep='\t', row.names=FALSE)
