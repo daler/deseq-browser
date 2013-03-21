@@ -1,0 +1,99 @@
+
+.text {
+}
+
+
+/*
+ *Controls
+ */
+.controls {
+}
+
+/*
+ *
+ *General table
+ */
+table.table {
+    clear: both;
+    margin-bottom: 6px !important;
+    max-width: none !important;
+    font-size: 12px;
+}
+
+.table td {
+    padding: 3px;}
+
+/*
+ *
+ *
+ * DataTables-specific classes....
+ *
+ *
+ *
+ */
+
+/*
+ * First/prev/numbers/next/last
+ */
+.dataTables_paginate {
+    float: right;
+    margin: 0;
+}
+
+/*
+ *Style specific buttons
+ */
+.paginate_button {
+    padding: 10px;
+}
+
+.paginate_active {
+    font-weight: bold;
+    font-size: 135%;
+}
+
+/*
+ *Show N entries combobox 
+ */
+div.dataTables_length select {
+    width: 75px;
+}
+
+
+/*
+ *Table headers (sort arrows)
+ */
+table.table thead .sorting {
+    background: url('../js/DataTables-1.9.4/media/images/sort_both.png') no-repeat center right;
+}
+table.table thead .sorting_asc {
+    background: url('../js/DataTables-1.9.4/media/images/sort_asc.png') no-repeat center right;
+}
+table.table thead .sorting_desc {
+    background: url('../js/DataTables-1.9.4/media/images/sort_desc.png') no-repeat center right;
+}
+table.table thead .sorting_asc_disabled {
+    background: url('../js/DataTables-1.9.4/media/images/sort_asc_disabled.png') no-repeat center right;
+}
+table.table thead .sorting_desc_disabled {
+    background: url('../js/DataTables-1.9.4/media/images/sort_desc_disabled.png') no-repeat center right;
+}
+
+/*
+ *Change cursor to hand when in headers
+ */
+table.table thead .sorting,
+table.table thead .sorting_asc,
+table.table thead .sorting_desc,
+table.table thead .sorting_asc_disabled,
+table.table thead .sorting_desc_disabled {
+    cursor: pointer;
+    *cursor: hand;
+}
+
+/*
+ *"Showing N of X entries" div
+ */
+div.dataTables_info {
+    padding-top: 8px;
+}
